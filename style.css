@@ -152,7 +152,7 @@ svg {
 .hl-app textarea {
   width: 100% !important;
 }
-.hl-app .form-builder--item .form-builder--btn-submit > div {
+.hl-app .form-builder--item.form-builder--btn-submit > div {
   display: block;
 }
 
