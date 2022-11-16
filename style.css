@@ -192,6 +192,8 @@ svg {
   .footer-widgets .c-form .hl-app .form-builder--item {
     padding-left: 8px;
     padding-right: 8px;
+  }
+  .footer-widgets .c-form .hl-app .form-builder--item:not(:last-child) {
     margin-bottom: 30px;
   }
   .footer-widgets .c-form .hl-app .menu-field-wrap ~ .menu-field-wrap:not(:last-child) {
