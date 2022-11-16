@@ -152,8 +152,8 @@ svg {
 }
 
 .footer-widgets .c-form .hl-app .form-builder--item {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .footer-widgets .c-form .hl-app input[type=email], .footer-widgets .c-form .hl-app input[type=number], .footer-widgets .c-form .hl-app input[type=password], .footer-widgets .c-form .hl-app input[type=text], .footer-widgets .c-form .hl-app textarea, .footer-widgets .c-form .hl-app .form-control {
   border-bottom: 1px solid #fff;
@@ -178,6 +178,10 @@ svg {
   .btn-header svg {
     vertical-align: -3px;
   }
+  .footer-widgets .c-form .hl-app .form-builder--item {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
   #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(2), #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(3) {
     width: 50%;
   }
@@ -185,5 +189,10 @@ svg {
 @media screen and (min-width: 992px) {
   .btn {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer-widgets .c-form .hl-app .form-builder--wrap {
+    max-width: 100% !important;
   }
 }
