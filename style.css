@@ -192,6 +192,9 @@ svg {
   }
 }
 @media screen and (max-width: 767px) {
+  .footer-widgets {
+    padding-bottom: 0 !important;
+  }
   .footer-widgets .c-form .hl-app .form-builder--wrap {
     max-width: 100% !important;
   }
