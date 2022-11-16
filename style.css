@@ -144,6 +144,9 @@ svg {
 .hl-app input::-webkit-input-placeholder, .hl-app textarea::-webkit-input-placeholder {
   color: inherit !important;
 }
+.hl-app textarea {
+  width: 100% !important;
+}
 
 .footer-widgets > .inner {
   max-width: 1103px;
@@ -172,6 +175,10 @@ svg {
 }
 .footer-widgets .c-form .hl-app .form-control:active:focus, .footer-widgets .c-form .hl-app .form-control:focus {
   background-color: var(--transparent) !important;
+}
+.footer-widgets .c-form .hl-app textarea.form-control {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 @media screen and (min-width: 768px) {
