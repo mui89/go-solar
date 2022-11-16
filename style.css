@@ -188,6 +188,18 @@ svg {
   padding-bottom: 0 !important;
 }
 
+@media screen and (min-width: 481px) {
+  .footer-widgets .social-info {
+    position: absolute;
+    right: 8px;
+    bottom: 40px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .footer-widgets {
+    padding-bottom: 0 !important;
+  }
+}
 @media screen and (min-width: 768px) {
   .btn-header svg {
     vertical-align: -3px;
@@ -212,9 +224,6 @@ svg {
   }
 }
 @media screen and (max-width: 767px) {
-  .footer-widgets {
-    padding-bottom: 0 !important;
-  }
   .footer-widgets .c-form .hl-app .form-builder--wrap {
     max-width: 100% !important;
   }
