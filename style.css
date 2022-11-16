@@ -122,98 +122,26 @@ svg {
 
 .hl-app {
   font-family: var(--poppins), sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2;
 }
-.hl-app input[type=email]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
+.hl-app input::-webkit-input-placeholder, .hl-app textarea::-webkit-input-placeholder {
+  color: var(--color-lagyhbu6) !important;
 }
-.hl-app input[type=email]::-moz-placeholder {
-  color: var(--color-lagyhbu6);
+.hl-app input::-moz-placeholder, .hl-app textarea::-moz-placeholder {
+  color: var(--color-lagyhbu6) !important;
 }
-.hl-app input[type=email]:-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
+.hl-app input:-ms-input-placeholder, .hl-app textarea:-ms-input-placeholder {
+  color: var(--color-lagyhbu6) !important;
 }
-.hl-app input[type=email]::-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
+.hl-app input::-ms-input-placeholder, .hl-app textarea::-ms-input-placeholder {
+  color: var(--color-lagyhbu6) !important;
 }
-.hl-app input[type=email]::placeholder {
-  color: var(--color-lagyhbu6);
+.hl-app input::placeholder, .hl-app textarea::placeholder {
+  color: var(--color-lagyhbu6) !important;
 }
-.hl-app input[type=number]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=number]::-moz-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=number]:-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=number]::-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=number]::placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=password]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=password]::-moz-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=password]:-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=password]::-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=password]::placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=text]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=text]::-moz-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=text]:-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=text]::-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=text]::placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app textarea::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app textarea::-moz-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app textarea:-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app textarea::-ms-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app textarea::placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=email]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=number]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=password]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app input[type=text]::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
-}
-.hl-app textarea::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6);
+.hl-app input::-webkit-input-placeholder, .hl-app textarea::-webkit-input-placeholder {
+  color: var(--color-lagyhbu6) !important;
 }
 
 .footer-widgets > .inner {
