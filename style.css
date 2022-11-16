@@ -192,11 +192,11 @@ svg {
   .btn-header svg {
     vertical-align: -3px;
   }
-  .footer-widgets .c-form .hl-app .form-builder--item {
+  .footer-widgets .c-form .hl-app .menu-field-wrap .form-builder--item {
     padding-left: 8px;
     padding-right: 8px;
   }
-  .footer-widgets .c-form .hl-app .form-builder--item:not(:last-child) {
+  .footer-widgets .c-form .hl-app .menu-field-wrap:not(:last-child) .form-builder--item {
     margin-bottom: 30px;
   }
   .footer-widgets .c-form .hl-app .menu-field-wrap ~ .menu-field-wrap:not(:last-child) {
