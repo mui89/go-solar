@@ -123,6 +123,7 @@ svg {
 .hl-app {
   font-family: var(--poppins), sans-serif;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.2;
 }
 .hl-app input::-webkit-input-placeholder, .hl-app textarea::-webkit-input-placeholder {
@@ -167,6 +168,7 @@ svg {
   line-height: 1.2;
   color: var(--color-lagyhbu6);
   background: var(--transparent);
+  font-weight: 500;
 }
 .footer-widgets .c-form .hl-app .form-control:active:focus, .footer-widgets .c-form .hl-app .form-control:focus {
   background-color: var(--transparent) !important;
