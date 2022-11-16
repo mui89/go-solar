@@ -181,6 +181,10 @@ svg {
   .footer-widgets .c-form .hl-app .form-builder--item {
     padding-left: 8px;
     padding-right: 8px;
+    margin-bottom: 30px;
+  }
+  .footer-widgets .c-form .hl-app .menu-field-wrap ~ .menu-field-wrap {
+    margin-top: 50px;
   }
   #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(2), #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(3) {
     width: 50%;
