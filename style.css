@@ -155,6 +155,10 @@ svg {
 .hl-app .form-builder--item.form-builder--btn-submit > div {
   display: block;
 }
+.hl-app .btn {
+  width: 100% !important;
+  max-width: 173px;
+}
 
 .footer-widgets > .inner {
   max-width: 1103px;
