@@ -126,22 +126,22 @@ svg {
   line-height: 1.2;
 }
 .hl-app input::-webkit-input-placeholder, .hl-app textarea::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6) !important;
+  color: inherit !important;
 }
 .hl-app input::-moz-placeholder, .hl-app textarea::-moz-placeholder {
-  color: var(--color-lagyhbu6) !important;
+  color: inherit !important;
 }
 .hl-app input:-ms-input-placeholder, .hl-app textarea:-ms-input-placeholder {
-  color: var(--color-lagyhbu6) !important;
+  color: inherit !important;
 }
 .hl-app input::-ms-input-placeholder, .hl-app textarea::-ms-input-placeholder {
-  color: var(--color-lagyhbu6) !important;
+  color: inherit !important;
 }
 .hl-app input::placeholder, .hl-app textarea::placeholder {
-  color: var(--color-lagyhbu6) !important;
+  color: inherit !important;
 }
 .hl-app input::-webkit-input-placeholder, .hl-app textarea::-webkit-input-placeholder {
-  color: var(--color-lagyhbu6) !important;
+  color: inherit !important;
 }
 
 .footer-widgets > .inner {
