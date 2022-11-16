@@ -177,7 +177,6 @@ svg {
   background-color: var(--transparent) !important;
 }
 .footer-widgets .c-form .hl-app textarea.form-control {
-  padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
