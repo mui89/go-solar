@@ -125,6 +125,10 @@ svg {
   text-align: center;
 }
 
+.c-heading h1, .c-heading h2, .c-heading h3, .c-heading h4, .c-heading h5, .c-heading h6 {
+  font-weight: 600;
+}
+
 .hl-app {
   font-family: var(--poppins), sans-serif;
   font-size: 16px;
