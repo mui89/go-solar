@@ -149,13 +149,21 @@ picture img {
   display: flex;
 }
 .c-featured-blog.horizontal picture {
+  width: 35%;
+  max-width: 159px;
   margin-right: 30px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 .c-featured-blog.horizontal picture img {
-  max-width: 159px;
-}
-.c-featured-blog.horizontal ~ .horizontal {
-  margin-top: 30px;
+  height: 100%;
+  max-width: 100%;
+  max-height: 133px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .post {
@@ -166,7 +174,7 @@ picture img {
   color: var(--color-lagyhbu6);
   line-height: 1.2;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 .post .title {
   font-size: 20px;
