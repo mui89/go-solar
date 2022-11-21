@@ -162,6 +162,13 @@ picture img {
   line-height: 1.5;
 }
 
+.btn-link {
+  color: var(--color-lagyhbu6);
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 .hl-app {
   font-family: var(--poppins), sans-serif;
   font-size: 16px;
