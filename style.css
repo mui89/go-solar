@@ -137,6 +137,9 @@ picture img {
 .c-featured-blog a {
   display: block;
 }
+.c-featured-blog a:hover {
+  color: var(--color-lah6n033);
+}
 .c-featured-blog.vertical .post {
   margin-top: 30px;
 }
@@ -144,6 +147,12 @@ picture img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.c-featured-blog.horizontal picture {
+  margin-right: 30px;
+}
+.c-featured-blog.horizontal ~ .horizontal {
+  margin-top: 30px;
 }
 
 .post {
