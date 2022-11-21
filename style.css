@@ -147,11 +147,12 @@ picture img {
 }
 
 .post {
-  line-height: 1.2;
+  line-height: 1.7;
   font-weight: 300;
 }
 .post .meta {
   color: var(--color-lagyhbu6);
+  line-height: 1.2;
   font-weight: 500;
   text-transform: uppercase;
 }
