@@ -137,6 +137,9 @@ picture img {
 .c-featured-blog a {
   display: block;
 }
+.c-featured-blog.vertical .post {
+  margin-top: 30px;
+}
 .c-featured-blog.horizontal a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,6 +148,7 @@ picture img {
 
 .post {
   line-height: 1.2;
+  font-weight: 300;
 }
 .post .meta {
   color: var(--color-lagyhbu6);
