@@ -134,6 +134,15 @@ picture img {
   height: auto;
 }
 
+.c-featured-blog a {
+  display: block;
+}
+.c-featured-blog.horizontal a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .post {
   line-height: 1.2;
 }
