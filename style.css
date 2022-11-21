@@ -134,6 +134,15 @@ picture img {
   height: auto;
 }
 
+.post {
+  line-height: 1.2;
+}
+.post .meta {
+  color: var(--color-lagyhbu6);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 .hl-app {
   font-family: var(--poppins), sans-serif;
   font-size: 16px;
