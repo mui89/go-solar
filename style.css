@@ -187,6 +187,12 @@ picture img {
   text-transform: uppercase;
   font-weight: 500;
   line-height: 1.2;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.btn-link:hover {
+  color: var(--color-lah6n033);
+  text-decoration: underline;
 }
 
 .hl-app {
