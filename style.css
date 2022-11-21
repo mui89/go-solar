@@ -151,6 +151,9 @@ picture img {
 .c-featured-blog.horizontal picture {
   margin-right: 30px;
 }
+.c-featured-blog.horizontal picture img {
+  max-width: 159px;
+}
 .c-featured-blog.horizontal ~ .horizontal {
   margin-top: 30px;
 }
