@@ -489,6 +489,10 @@ picture img {
   }
 }
 @media screen and (max-width: 767px) {
+  .testimonials > .bg {
+    background-size: cover;
+    background-position: center;
+  }
   .img-txt.img-right .c-row .inner .c-column:last-child .image-container img {
     width: 100%;
     height: auto;
