@@ -164,6 +164,7 @@ picture img {
 }
 .img-feature-container.service-feature .txt-container .featureHeadline {
   font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .image-container img {
