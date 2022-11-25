@@ -159,6 +159,15 @@ picture img {
   width: 100%;
 }
 
+.img-txt {
+  overflow: hidden;
+}
+.img-txt.img-right .c-row .inner .c-column:last-child > .bg {
+  left: 20%;
+  right: -10000%;
+  width: auto;
+}
+
 .gallery-grid > .inner > .c-column {
   padding-left: 0;
   padding-right: 0;
