@@ -140,8 +140,7 @@ svg {
 .c-button > a.btnshadow {
   font-weight: 500;
   line-height: 1.2;
-  width: 173px;
-  max-width: 100%;
+  max-width: 173px;
 }
 .c-button > a.btnshadow:hover {
   color: var(--color-lagyhbu6);
