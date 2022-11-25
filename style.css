@@ -441,8 +441,8 @@ picture img {
     padding-right: 0;
   }
   .img-txt.img-right .c-row .inner .c-column:last-child {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 @media screen and (max-width: 991px) {
