@@ -167,8 +167,12 @@ picture img {
 .gallery-grid .c-image img {
   width: 100%;
   min-height: 300px;
+  max-height: 514px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.gallery-grid .c-image .image-container > * {
+  height: 100%;
 }
 
 .cta-bar {
