@@ -164,6 +164,8 @@ picture img {
 }
 .img-feature-container.service-feature .txt-container {
   font-weight: 300;
+  max-width: 287px;
+  float: none;
 }
 .img-feature-container.service-feature .txt-container .featureHeadline {
   font-weight: 600;
