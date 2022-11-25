@@ -427,6 +427,10 @@ picture img {
   }
 }
 @media screen and (max-width: 767px) {
+  .c-row.gallery-grid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   .c-featured-blog.vertical {
     margin-bottom: 30px;
   }
