@@ -346,7 +346,7 @@ picture img {
   .btn-header svg {
     vertical-align: -3px;
   }
-  .img-txt.img-right .c-row .inner .c-column:first-child {
+  .img-txt.img-right .c-row .inner .c-column:last-child {
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -413,6 +413,10 @@ picture img {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
   }
+  .img-txt.img-right .c-row .inner .c-column:last-child {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .projects {
     padding-top: 50px !important;
   }
@@ -431,6 +435,10 @@ picture img {
   .img-txt.img-right .c-row .inner .c-column:first-child .inner {
     padding-left: 0;
     padding-right: 0;
+  }
+  .img-txt.img-right .c-row .inner .c-column:last-child {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 991px) {
