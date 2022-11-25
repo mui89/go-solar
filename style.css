@@ -164,12 +164,14 @@ picture img {
 }
 .img-feature-container.service-feature .txt-container {
   font-weight: 300;
-  max-width: 287px;
-  float: none;
 }
 .img-feature-container.service-feature .txt-container .featureHeadline {
   font-weight: 600;
   margin-bottom: 15px;
+}
+
+.service-features .c-row:not(.row-heading) .c-column > .inner {
+  max-width: 287px;
 }
 
 .image-container img {
