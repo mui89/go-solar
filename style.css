@@ -162,6 +162,9 @@ picture img {
 .img-feature-container.service-feature .img-container, .img-feature-container.service-feature .txt-container {
   width: 100%;
 }
+.img-feature-container.service-feature .txt-container {
+  font-weight: 300;
+}
 .img-feature-container.service-feature .txt-container .featureHeadline {
   font-weight: 600;
   margin-bottom: 15px;
