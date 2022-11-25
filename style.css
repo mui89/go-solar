@@ -170,6 +170,18 @@ picture img {
   margin-bottom: 15px;
 }
 
+.c-row.flex-row-auto > .inner {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.c-row.flex-row-auto .c-column {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 auto !important;
+          flex: 0 0 auto !important;
+  width: auto !important;
+}
+
 .service-features .c-row:not(.row-heading) .c-column > .inner {
   max-width: 287px;
 }
