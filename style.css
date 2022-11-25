@@ -159,6 +159,10 @@ picture img {
   width: 100%;
 }
 
+.service-feature .img-container, .service-feature .txt-container {
+  width: 100%;
+}
+
 .image-container img {
   -o-object-fit: cover;
      object-fit: cover;
