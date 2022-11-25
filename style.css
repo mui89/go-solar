@@ -168,7 +168,7 @@ picture img {
   overflow: hidden;
 }
 .img-txt.img-right .c-row .inner .c-column:last-child > .bg {
-  left: 20%;
+  left: 30%;
   right: -10000%;
   width: auto;
 }
