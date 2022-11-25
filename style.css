@@ -346,6 +346,10 @@ picture img {
   .btn-header svg {
     vertical-align: -3px;
   }
+  .img-txt.img-right .c-row .inner .c-column:first-child {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   .gallery-grid .c-image img {
     max-height: 100vh;
   }
