@@ -170,6 +170,9 @@ picture img {
   margin-bottom: 15px;
 }
 
+.c-row {
+  color: blue;
+}
 .c-row.flex-row-auto > .inner {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
