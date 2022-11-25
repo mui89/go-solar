@@ -182,7 +182,7 @@ picture img {
   -webkit-box-flex: 0 !important;
       -ms-flex: 0 0 auto !important;
           flex: 0 0 auto !important;
-  width: auto !important;
+  width: auto;
 }
 
 .service-features .c-row:not(.row-heading) .c-column > .inner {
