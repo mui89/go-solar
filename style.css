@@ -162,6 +162,9 @@ picture img {
 .service-feature .img-container, .service-feature .txt-container {
   width: 100%;
 }
+.service-feature .txt-container {
+  font-weight: 600;
+}
 
 .image-container img {
   -o-object-fit: cover;
