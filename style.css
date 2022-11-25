@@ -171,7 +171,7 @@ picture img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.gallery-grid .c-image .image-container > * {
+.gallery-grid .c-image .image-container * {
   height: 100%;
 }
 
