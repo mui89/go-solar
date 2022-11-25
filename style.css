@@ -336,7 +336,7 @@ picture img {
     vertical-align: -3px;
   }
   .gallery-grid .c-image img {
-    max-height: 514px;
+    max-height: 100vh;
   }
   .c-featured-blog.vertical {
     height: 100%;
