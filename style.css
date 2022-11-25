@@ -159,6 +159,11 @@ picture img {
   width: 100%;
 }
 
+.image-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .img-txt {
   overflow: hidden;
 }
@@ -176,8 +181,6 @@ picture img {
   width: 100%;
   min-height: 300px;
   max-height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .gallery-grid .c-image .image-container * {
   height: 100%;
