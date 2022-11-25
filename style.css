@@ -167,7 +167,7 @@ picture img {
 .gallery-grid .c-image img {
   width: 100%;
   min-height: 300px;
-  max-height: 514px;
+  max-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -334,6 +334,9 @@ picture img {
 @media screen and (min-width: 768px) {
   .btn-header svg {
     vertical-align: -3px;
+  }
+  .gallery-grid .c-image img {
+    max-height: 514px;
   }
   .c-featured-blog.vertical {
     height: 100%;
