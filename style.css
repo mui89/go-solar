@@ -413,6 +413,10 @@ picture img {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
   }
+  .service-features {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
   .img-txt.img-right .c-row .inner .c-column:last-child {
     padding-top: 30px;
     padding-bottom: 30px;
