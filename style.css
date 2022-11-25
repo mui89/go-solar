@@ -395,6 +395,10 @@ picture img {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
   }
+  .img-txt {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
   .projects {
     padding-top: 50px !important;
   }
