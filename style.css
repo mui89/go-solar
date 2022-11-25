@@ -423,6 +423,12 @@ picture img {
     padding-bottom: 40px;
   }
 }
+@media screen and (min-width: 1140px) {
+  .img-txt.img-right .c-row .inner .c-column:first-child .inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 @media screen and (max-width: 991px) {
   .mt-991-30 {
     margin-top: 30px;
