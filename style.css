@@ -159,6 +159,10 @@ picture img {
   width: 100%;
 }
 
+.testimonials {
+  overflow: hidden;
+}
+
 .img-feature-container.service-feature .img-container, .img-feature-container.service-feature .txt-container {
   width: 100%;
 }
