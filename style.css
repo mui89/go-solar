@@ -230,7 +230,7 @@ picture img {
   display: block;
   font-weight: 500;
 }
-.stat .number {
+.stat .numbers {
   font-size: 40px;
   font-weight: 700;
   color: var(--color-lagyhbu6);
