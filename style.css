@@ -218,6 +218,7 @@ picture img {
 }
 .stat span {
   display: block;
+  font-weight: 500;
 }
 .stat .number {
   font-size: 40px;
