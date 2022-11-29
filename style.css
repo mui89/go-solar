@@ -213,6 +213,10 @@ picture img {
   width: auto;
 }
 
+.statistics {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .statistics > span {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,6 +229,8 @@ picture img {
 .stat {
   text-align: center;
   line-height: 1.2;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .stat span {
   display: block;
