@@ -162,10 +162,19 @@ picture img {
   width: 100%;
 }
 
+.statistics-row {
+  color: var(--white);
+}
 .statistics-row .c-column > .inner {
   background: var(--color-lagyhbu6);
   border-radius: 5px;
   overflow: hidden;
+}
+.statistics-row .stat {
+  border-left: none;
+}
+.statistics-row .stat .numbers {
+  color: var(--white);
 }
 
 .c-bullet-list .text-output ul li {
