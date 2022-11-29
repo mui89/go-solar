@@ -186,6 +186,9 @@ picture img {
 .statistics-row {
   color: var(--white);
 }
+.statistics-row .c-column {
+  margin-bottom: 20px;
+}
 .statistics-row .c-column > .inner {
   background: var(--color-lagyhbu6);
   border-radius: 5px;
