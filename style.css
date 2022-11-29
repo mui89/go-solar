@@ -162,6 +162,11 @@ picture img {
   width: 100%;
 }
 
+.c-bullet-list .text-output ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .service {
   -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
