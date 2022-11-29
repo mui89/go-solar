@@ -212,6 +212,11 @@ picture img {
   right: -10000%;
   width: auto;
 }
+.img-txt.img-left .c-row .inner .c-column:first-child > .bg {
+  right: 30%;
+  left: -10000%;
+  width: auto;
+}
 
 .statistics {
   margin-top: 15px;
