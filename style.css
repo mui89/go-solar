@@ -162,6 +162,11 @@ picture img {
 .testimonials {
   overflow: hidden;
 }
+.testimonials .testimonial-slider-container {
+  max-width: 526px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .img-feature-container.service-feature .img-container, .img-feature-container.service-feature .txt-container {
   width: 100%;
