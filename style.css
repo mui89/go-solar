@@ -213,6 +213,10 @@ picture img {
   width: auto;
 }
 
+.stat span {
+  display: block;
+}
+
 .gallery-grid > .inner > .c-column {
   padding-left: 0;
   padding-right: 0;
