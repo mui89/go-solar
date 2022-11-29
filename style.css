@@ -162,6 +162,12 @@ picture img {
   width: 100%;
 }
 
+.statistics-row .c-column > .inner {
+  background: var(--color-lagyhbu6);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
 .c-bullet-list .text-output ul li {
   padding-top: 5px;
   padding-bottom: 5px;
