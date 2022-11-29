@@ -213,8 +213,16 @@ picture img {
   width: auto;
 }
 
+.stat {
+  line-height: 1.2;
+}
 .stat span {
   display: block;
+}
+.stat .number {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-lagyhbu6);
 }
 
 .gallery-grid > .inner > .c-column {
