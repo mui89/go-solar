@@ -136,9 +136,12 @@ svg {
 .c-heading h1, .c-heading h2, .c-heading h3, .c-heading h4, .c-heading h5, .c-heading h6 {
   font-weight: 600;
 }
+.c-heading .fw-300 h1, .c-heading .fw-300 h2, .c-heading .fw-300 h3, .c-heading .fw-300 h4, .c-heading .fw-300 h5, .c-heading .fw-300 h6 {
+  font-weight: 300;
+}
 
 .fw-300 {
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 
 .c-button > a {
