@@ -137,6 +137,9 @@ svg {
   font-weight: 600;
 }
 
+.c-button > a {
+  text-align: center;
+}
 .c-button > a.btnshadow {
   font-weight: 500;
   line-height: 1.2;
