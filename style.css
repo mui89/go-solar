@@ -436,6 +436,10 @@ picture img {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  .img-txt.img-left .c-row .inner .c-column:first-child {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   .gallery-grid .c-image img {
     max-height: 100vh;
   }
