@@ -168,7 +168,7 @@ picture img {
 }
 
 .services .c-row:not(.row-heading) > .inner .c-column:not(:last-child) {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .testimonials {
@@ -385,6 +385,9 @@ picture img {
 @media screen and (min-width: 768px) {
   .btn-header svg {
     vertical-align: -3px;
+  }
+  .services .c-row:not(.row-heading) > .inner .c-column:last-child {
+    margin-bottom: 25px;
   }
   .img-txt.img-right .c-row .inner .c-column:last-child {
     padding-top: 15px;
