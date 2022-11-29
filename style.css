@@ -243,6 +243,7 @@ picture img {
   font-size: 40px;
   font-weight: 700;
   color: var(--color-lagyhbu6);
+  margin-bottom: 5px;
 }
 
 .gallery-grid > .inner > .c-column {
