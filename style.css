@@ -588,6 +588,10 @@ picture img {
     width: 100%;
     height: auto;
   }
+  .img-txt.img-left .c-row .inner .c-column:first-child .image-container img {
+    width: 100%;
+    height: auto;
+  }
   .c-row.gallery-grid {
     padding-left: 0 !important;
     padding-right: 0 !important;
