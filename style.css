@@ -125,6 +125,29 @@ svg {
           justify-content: center;
 }
 
+.heading-line-right > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.heading-line-right > *:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 20px;
+          flex: 1 0 20px;
+  color: #666666;
+}
+
 .btn {
   color: var(--white);
   font-weight: 500;
