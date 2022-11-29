@@ -167,6 +167,10 @@ picture img {
   margin-left: auto;
   margin-right: auto;
 }
+.testimonials .slider {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .img-feature-container.service-feature .img-container, .img-feature-container.service-feature .txt-container {
   width: 100%;
@@ -181,6 +185,11 @@ picture img {
 
 .service-features .c-row:not(.row-heading) .c-column > .inner {
   max-width: 287px;
+}
+
+.service {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
 }
 
 .image-container img {
@@ -355,7 +364,7 @@ picture img {
   .fs-30 {
     font-size: 30px;
   }
-  .footer-widgets .social-info {
+  .te .footer-widgets .social-info {
     position: absolute;
     right: 8px;
     bottom: 40px;
@@ -437,7 +446,7 @@ picture img {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
   }
-  .service-features {
+  .services, .service-features {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
   }
