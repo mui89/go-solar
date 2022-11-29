@@ -137,6 +137,10 @@ svg {
   font-weight: 600;
 }
 
+.fw-300 {
+  font-weight: 300 !important;
+}
+
 .c-button > a {
   text-align: center;
 }
