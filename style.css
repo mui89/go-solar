@@ -491,6 +491,10 @@ picture img {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
   }
+  .testimonials {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
   .services, .service-features {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
