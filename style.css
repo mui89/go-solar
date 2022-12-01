@@ -157,16 +157,6 @@ svg {
   max-width: 180px;
   width: 80%;
 }
-.heading-line-right:after {
-  content: "01";
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 28%;
-          flex: 0 0 28%;
-  color: var(--color-lagyhbu6);
-}
 
 .btn {
   color: var(--white);
