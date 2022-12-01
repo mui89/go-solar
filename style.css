@@ -130,7 +130,7 @@ svg {
   display: -ms-flexbox;
   display: flex;
 }
-.heading-line-right > * {
+.heading-line-right > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +146,7 @@ svg {
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
 }
-.heading-line-right > *:after {
+.heading-line-right > div:after {
   content: "";
   border-top: 2px solid;
   margin: 0 20px 0 10px;
