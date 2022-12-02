@@ -43,8 +43,8 @@ svg {
   background-position: center right !important;
 }
 
-.bgCenter > div:not(.inner) {
-  background-position: center !important;
+.bgCenterBottom > div:not(.inner) {
+  background-position: center bottom !important;
 }
 
 .top-head, .btn {
