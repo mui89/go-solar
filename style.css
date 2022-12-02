@@ -43,6 +43,10 @@ svg {
   background-position: center right !important;
 }
 
+.bgCenter > div:not(.inner) {
+  background-position: center !important;
+}
+
 .top-head, .btn {
   font-size: 14px;
   line-height: 1.2em;
