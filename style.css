@@ -504,13 +504,13 @@ picture img {
   font-weight: 600;
   line-height: 1.5;
   font-size: 25px;
-  margin-top: 1em;
+  margin-top: 0.6em;
   margin-bottom: 0.5em;
 }
 
 .project-details {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .project-details p {
   line-height: 1.7;
@@ -629,9 +629,6 @@ picture img {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .project-wrap .project-img {
     -webkit-box-flex: 0;
@@ -642,10 +639,17 @@ picture img {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .project-img-thumbnail {
+    height: 100%;
   }
   .project-img-thumbnail img {
     width: 100%;
     max-width: 317px;
+    height: 100%;
   }
 }
 @media screen and (min-width: 992px) {
