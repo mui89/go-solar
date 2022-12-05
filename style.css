@@ -490,7 +490,7 @@ picture img {
   padding-bottom: 0 !important;
 }
 
-.projects .c-custom-code ~ .c-custom-code {
+.projects.c-row .c-custom-code ~ .c-custom-code {
   margin-top: 30px;
 }
 
@@ -621,6 +621,9 @@ picture img {
   #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(2), #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(3) {
     width: 50%;
   }
+  .projects.c-row .c-custom-code ~ .c-custom-code {
+    margin-top: 60px;
+  }
   .project .project-details {
     padding-left: 30px;
   }
@@ -700,7 +703,7 @@ picture img {
     width: 100%;
     max-width: 420px;
   }
-  .projects {
+  .projects:not(.c-row) {
     padding-top: 50px !important;
   }
   .gallery-grid {
@@ -712,6 +715,9 @@ picture img {
   }
   .recent-posts .row-heading {
     padding-bottom: 40px;
+  }
+  .projects.c-row .c-custom-code ~ .c-custom-code {
+    margin-top: 80px;
   }
 }
 @media screen and (min-width: 1140px) {
@@ -730,6 +736,9 @@ picture img {
   .img-txt.img-left .c-row .inner .c-column:first-child {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .projects.c-row .c-custom-code ~ .c-custom-code {
+    margin-top: 100px;
   }
   .project-img-thumbnail img {
     max-height: 317px;
