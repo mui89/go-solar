@@ -497,11 +497,15 @@ picture img {
 .project .project-meta {
   text-transform: uppercase;
   display: block;
+  margin-bottom: 10px;
 }
 
 .project-title {
   font-weight: 600;
   line-height: 1.5;
+  font-size: 25px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .project-details {
@@ -510,6 +514,7 @@ picture img {
 }
 .project-details p {
   line-height: 1.7;
+  margin-top: 1.5em;
 }
 
 .project-img-thumbnail img {
@@ -614,6 +619,9 @@ picture img {
   }
   .project .project-details {
     padding-left: 30px;
+  }
+  .project-title {
+    font-size: 30px;
   }
   .project-wrap {
     display: -webkit-box;
