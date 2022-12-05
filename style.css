@@ -492,18 +492,24 @@ picture img {
 
 .project {
   font-weight: 500;
+  line-height: 1.2;
 }
 .project .project-meta {
   text-transform: uppercase;
   display: block;
 }
-.project .project-details {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 
 .project-title {
   font-weight: 600;
+  line-height: 1.5;
+}
+
+.project-details {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.project-details p {
+  line-height: 1.7;
 }
 
 .project-img-thumbnail img {
