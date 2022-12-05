@@ -222,6 +222,8 @@ picture {
 }
 picture img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .statistics-row {
@@ -367,10 +369,6 @@ picture img {
 }
 .c-featured-blog a:hover {
   color: var(--color-lah6n033);
-}
-.c-featured-blog.vertical picture img {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .c-featured-blog.vertical .post {
   margin-top: 30px;
