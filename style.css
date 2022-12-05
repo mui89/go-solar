@@ -493,6 +493,10 @@ picture img {
 .project .project-meta {
   text-transform: uppercase;
 }
+.project .project-details {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .project-img-thumbnail img {
   min-height: 317px;
