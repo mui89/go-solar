@@ -490,6 +490,9 @@ picture img {
   padding-bottom: 0 !important;
 }
 
+.project {
+  font-weight: 500;
+}
 .project .project-meta {
   text-transform: uppercase;
   display: block;
@@ -497,6 +500,10 @@ picture img {
 .project .project-details {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.project-title {
+  font-weight: 600;
 }
 
 .project-img-thumbnail img {
