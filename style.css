@@ -608,6 +608,9 @@ picture img {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .project-wrap .project-img {
     -webkit-box-flex: 0;
