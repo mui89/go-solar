@@ -492,6 +492,7 @@ picture img {
 
 .project .project-meta {
   text-transform: uppercase;
+  display: block;
 }
 .project .project-details {
   padding-top: 30px;
