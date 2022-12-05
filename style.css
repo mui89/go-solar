@@ -716,6 +716,9 @@ picture img {
   .recent-posts .row-heading {
     padding-bottom: 40px;
   }
+  .projects.c-row {
+    margin-bottom: 30px;
+  }
   .projects.c-row .c-custom-code ~ .c-custom-code {
     margin-top: 80px;
   }
@@ -736,6 +739,9 @@ picture img {
   .img-txt.img-left .c-row .inner .c-column:first-child {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .projects.c-row {
+    margin-bottom: 50px;
   }
   .projects.c-row .c-custom-code ~ .c-custom-code {
     margin-top: 100px;
