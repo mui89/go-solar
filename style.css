@@ -495,6 +495,11 @@ picture img {
   padding-bottom: 0 !important;
 }
 
+.project-img-thumbnail img {
+  min-height: 317px;
+  max-height: 317px;
+}
+
 @media screen and (min-width: 481px) {
   .fs-30 {
     font-size: 30px;
