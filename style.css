@@ -602,6 +602,23 @@ picture img {
   .project .project-details {
     padding-left: 30px;
   }
+  .project-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .project-wrap .project-img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 317px;
+            flex: 0 0 317px;
+  }
+  .project-wrap .project-details {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
   .project-img-thumbnail img {
     width: 100%;
     max-width: 317px;
