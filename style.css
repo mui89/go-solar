@@ -594,6 +594,13 @@ picture img {
   #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(2), #form-t1OzgIFh3z .hl-app .menu-field-wrap:nth-child(3) {
     width: 50%;
   }
+  .project .project-details {
+    padding-left: 30px;
+  }
+  .project-img-thumbnail img {
+    width: 100%;
+    max-width: 317px;
+  }
 }
 @media screen and (min-width: 992px) {
   .btn {
