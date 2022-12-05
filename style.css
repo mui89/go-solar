@@ -490,6 +490,10 @@ picture img {
   padding-bottom: 0 !important;
 }
 
+.projects .c-custom-code ~ .c-custom-code {
+  margin-top: 30px;
+}
+
 .project {
   font-weight: 500;
   line-height: 1.2;
