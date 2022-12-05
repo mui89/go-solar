@@ -727,6 +727,9 @@ picture img {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  .project-img-thumbnail img {
+    max-height: 317px;
+  }
 }
 @media screen and (max-width: 991px) {
   .mt-991-30 {
