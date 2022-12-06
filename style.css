@@ -550,6 +550,13 @@ picture img {
   max-width: 100%;
 }
 
+.recent-post-thumb img {
+  width: 117px;
+  height: 117px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media screen and (min-width: 481px) {
   .fs-30 {
     font-size: 30px;
