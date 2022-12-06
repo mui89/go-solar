@@ -538,6 +538,18 @@ picture img {
   max-height: 313px;
 }
 
+.newsletter #_builder-form .fields-container {
+  margin-top: 0;
+  padding-top: 0;
+}
+.newsletter .hl-app .form-builder--item {
+  padding-left: 0;
+  padding-right: 0;
+}
+.newsletter .hl-app .btn {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 481px) {
   .fs-30 {
     font-size: 30px;
