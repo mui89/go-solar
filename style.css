@@ -550,11 +550,29 @@ picture img {
   max-width: 100%;
 }
 
+.recent-post-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.recent-post-item .recent-post-content {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.recent-post-item ~ .recent-post-item {
+  margin-top: 30px;
+}
+
 .recent-post-thumb img {
   width: 117px;
   height: 117px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.recent-post-meta {
+  color: #85BA46;
 }
 
 @media screen and (min-width: 481px) {
