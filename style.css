@@ -19,6 +19,10 @@ svg {
   fill: currentColor;
 }
 
+.text-white {
+  color: var(--white);
+}
+
 .fw-semibold {
   font-weight: 600;
 }
